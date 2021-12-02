@@ -1,0 +1,161 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content=" its a movie searching website , and you can also book a movie here by your location">
+<meta name="keywords" content="movie,searching website, book a movie">
+<meta name="author" content="divyanshu pal">
+<meta http-equiv="refresh"content="100">
+
+<link rel="stylesheet" href="/website/style.css">
+<link rel="stylesheet" href="/website/search/sea.css">
+
+ <!-- <script defer src="http://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>  -->
+
+<title> entaiertainment express-search and book a movie by your location </title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+<body>
+   
+ <nav class="navbar background">  
+   <ul class="nav-list">
+      <div class="logo"><img src="/website/logo.jpg" alt="logo"></div>
+      <li>  <a href="#home"> Bollywood & Hollywood</a>
+         <div class="sub-menu-1">
+             <ul>
+               <li> <a href="/website/romantic.htm"> Romantic movies</a></li>
+               <li> <a href="/website/action.htm"> Action & adventures</a></li>
+               <li> <a href="/website/comedy.htm"> comedy</a></li>
+               
+             </ul>
+       
+         </div>
+     </li>
+    <li>  <a href="#home"> TV</a>
+       <div class="sub-menu-1">
+         <ul>
+          <li> <a href="/website/comedyshows.htm"> Comedy shows</a></li>
+          <li> <a href="/website/sport/sport.htm"> Sports</a></li>
+          <li> <a href="/website/news/news.htm">News </a></li>
+          
+         </ul>
+      </div>
+   </li>
+      <li>  <a href="#home"> MOVIES</a>
+      <div class="sub-menu-1">
+            <ul>
+                      <li> <a href="/website/hindi.htm"> HINDI</a></li>
+                      <li> <a href="/website/ENGLISH.HTM"> ENGLISH</a></li>
+                     <li> <a href="/website/south.htm"> south</a></li>
+         
+            </ul>
+  
+      </div>
+       </li>
+               <li> <a href="/website/index.htm"> HOME</a></li>
+               <li><a href="#contact"> contact us</a></li>
+      
+        </ul>
+   <!-- <div class="rightnav"> 
+      <input class="search-text" type="text" name=""placeholder="type to search">
+      <a class="search-btn" href="#">
+         <i class="fas fa-search"></i>
+      </a>
+   </div> -->
+
+
+
+
+
+
+   
+<section class="dropdown">
+  <input type="text" onclick="myFunction()" class="dropbtn"  placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+  <div id="myDropdown" class="dropdown-content">
+ 
+ 
+    <a href="/website/search/ashiqui2.htm">Aashiqui 2</a>
+    <a href="/website/search/zindagi.htm">Zindagi Na milegi Dubara</a>
+    <a href="/website/search/phirheraferi.htm">Phir hera feri</a>
+    <a href="/website/search/golmal.htm">Golmal</a>
+    <a href="/website/search/dhol.htm">Dhol</a>
+    <a href="/website/search/squid.htm">Squid game</a>
+    <a href="/website/search/bell.htm">Bell Bottom</a>
+    <a href="/website/search/bhuj.htm">Bhuj</a>
+    <a href="/website/search/tanhaji.htm">Tanhaji</a>
+    <a href="/website/search/thefamily.htm">The family Man</a>
+    <a href="/website/search/sardar.htm">Sardar Udham singh</a>
+	<a href="/website/search/sooryavanshi.htm">Sooryavanshi</a>
+    <a href="/website/search/prithviraj.htm">Prithviraj</a>
+    <a href="/website/search/holidate.htm">Holidate</a>
+    <a href="/website/search/wasseypur.htm">|Gangs of Wassepur</a>
+    <a href="/website/search/gabaar.htm">Gabbar is back</a>
+    
+    <a href="/website/search/singham.htm"> Singham</a>
+    <a href="/website\search/3-idiots.htm"> 3-Idiots</a>
+
+    
+     
+    <a href="/website/search/jumanji.htm"> Jumanji</a>
+   
+    <a href="/website/search/jolly.htm"> Jolly LLB</a>
+    
+    <a href="/website/search/munna.htm"> Munna Bhai MBBS</a>
+
+   
+    <a href="/website/search/student.htm"> Student of the Year</a>
+    <a href="/website/search/bean.htm">Mr. Bean's</a>
+    
+ </div>
+</section>  
+</nav> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+    
+    function filterFunction() {
+      var input, filter, ul, li, a, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      div = document.getElementById("myDropdown");
+      a = div.getElementsByTagName("a");
+      for (i = 0; i < a.length; i++) {
+        txtValue = a[i].textContent || a[i].innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          a[i].style.display = "";
+        } else {
+          a[i].style.display = "none";
+        }
+      }
+    }
+    </script>
+<div>
+    <iframe width="1367" height="565" src="https://www.youtube.com/embed/A6eZ49O67YQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
